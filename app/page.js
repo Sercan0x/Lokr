@@ -292,7 +292,7 @@ export default function Home() {
             <p className="text-sm text-gray-400">Set daily and per-transaction limits.</p>
           </div>
           
-          <div className="p-4 bg-gray-800/30 backdrop-blur-xl rounded-2xl border border-gray-700/50 hover:border-red-500/50 transition-all duration-300 text-center">
+                    <div className="p-4 bg-gray-800/30 backdrop-blur-xl rounded-2xl border border-gray-700/50 hover:border-red-500/50 transition-all duration-300 text-center">
             <div className="w-10 h-10 bg-red-500/20 rounded-xl flex items-center justify-center mb-2 mx-auto">
               <Shield className="w-5 h-5 text-red-400" />
             </div>
@@ -300,6 +300,25 @@ export default function Home() {
             <p className="text-sm text-gray-400">Only send to pre-approved addresses.</p>
           </div>
         </div>
+
+        <footer className="py-8 mt-16 border-t border-gray-800/50">
+          <div className="text-center">
+            <p className="text-gray-500 text-sm">
+              Built with ❤️ by{' '}
+              <a 
+                href="https://x.com/Sercan0x" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-red-400 hover:text-red-300 transition-colors font-semibold"
+              >
+                Sercan0x
+              </a>
+            </p>
+            <p className="text-gray-600 text-xs mt-2">
+              Powered by Arc Network
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
